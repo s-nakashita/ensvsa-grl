@@ -10,4 +10,4 @@ This repository provides Python scripts for producing figures and a table in a m
 - Table S1: `comp_wgt.py`, `create_table.r`
 - processing input arguments: `plotargs.py`
 
-The model output data for producing the manuscript figures are included in `data`.
+The model output data for producing the manuscript figures can be downloaded from [here](https://drive.google.com/file/d/12AlNec8QwNWpquUoHDx2OgCADBTwL1_5/view?usp=sharing).
