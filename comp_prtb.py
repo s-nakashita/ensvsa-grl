@@ -240,12 +240,12 @@ for pvar in plot_var:
                     transform=ccrs.PlateCarree(),zorder=3)
                 ax.quiverkey(q, X=0.875, Y=1.05, U=1.0, label=r'1 m s$^{-1}$')
                 ## target region
-                #ax.plot([slon,elon,elon,slon,slon],
-                #    [slat,slat,elat,elat,slat],
-                #    lw=2.0,c='gray',#ls='dashed',
-                #    transform=ccrs.PlateCarree())
-                #ax.add_patch(Rectangle((slon,slat),elon-slon,elat-slat,fc="k",alpha=0.2,
-                #    transform=ccrs.PlateCarree()))
+                ax.plot([slon,elon,elon,slon,slon],
+                    [slat,slat,elat,elat,slat],
+                    lw=0.5,c='k',#ls='dashed',
+                    transform=ccrs.PlateCarree())
+                ax.add_patch(Rectangle((slon,slat),elon-slon,elat-slat,fc="k",alpha=0.2,
+                    transform=ccrs.PlateCarree()))
                 
                 ax.coastlines(color='tan',lw=0.5)
                 ax.set_xticks(lonlist,crs=ccrs.PlateCarree())
