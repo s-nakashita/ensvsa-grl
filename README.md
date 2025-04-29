@@ -11,4 +11,4 @@ This repository provides Python scripts for producing figures and a table in a m
 - processing input arguments: `plotargs.py`
 
 Execute `plot.sh` to produce all figures. 
-The model output data for producing the manuscript figures can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.14560175).
+The model output data for producing the manuscript figures is attached to the release Version 1.1.
